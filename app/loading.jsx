@@ -1,10 +1,11 @@
 "use client";
-import Loading from "@/app/components/Loading/Loading";
+// import Loading from "@/app/components/Loading/Loading";
 
 const loading = () => {
   return (
     <>
-      <Loading />
+      {/* <Loading /> */}
+      <p>Loading page </p>
     </>
   );
 };

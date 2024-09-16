@@ -1,4 +1,4 @@
-import Sidebar from "@/app/components/dashboardPage/Sidebar";
+// import Sidebar from "@/app/components/dashboardPage/Sidebar";
 
 export default function dashboardLayout({ children }) {
   return (
@@ -15,7 +15,8 @@ export default function dashboardLayout({ children }) {
       <section className=" font-TitleFont">
         <div className="container max-w-screen-xl mx-auto ">
           <div className="flex flex-col md:flex-row ">
-            <Sidebar />
+            {/* link dachbord  */}
+            {/* <Sidebar /> */}
             <main className="grow p-2 ">
               <div className="w-full rounded">{children}</div>
             </main>
